@@ -1,0 +1,106 @@
+@font-face {
+  font-family: inter;
+  src: url(font/Inter-Bold.ttf);
+  font-family: Kavoon;
+  src: url(font/Kavoon-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  isolation: isolate;
+}
+
+.background-logo {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.background-logo::before {
+  background-image: url(https://visithague.com/wp-content/uploads/2020/05/digital4_review-4Travel.jpg);
+  background-repeat: no-repeat;
+  content: '';
+  background-size: 70% 100%;
+  /* width: 1980px; */
+  background-position: left;
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+
+}
+
+h1.web,
+h1.content {
+  font-size: 80px;
+  font-weight: bolder;
+  text-shadow: 0 .5px 10px black;
+}
+
+.header {
+  text-align: left !important;
+  color: #000;
+  font-family: Kavoon;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-top: 10px;
+  isolation: isolate;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+h1.h3{
+  font-family:inter;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: auto;
+  font-weight: bold!important;
+  font-size: 60px !important;
+  margin-right: 35%;
+  isolation: isolate;
+}
+
+.please-sign-in {
+  margin-right: 90px;
+}
+
+.form-signin {
+  background-color: #ffffff;
+  margin-left: 80%;
+  border-radius: 20px;
+  box-shadow: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: auto;
+  isolation: isolate;
+}
+
+.ComM {
+  margin-top: 35px;
+}
+
+.logins {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  margin-top: 30px;
+}
